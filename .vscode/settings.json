@@ -1,0 +1,10 @@
+{
+  "eslint.options": {
+    "overrideConfigFile": ".eslintrc.json"
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "eslint.fixAll": true
+  },
+  "eslint.validate": ["typescript", "typescriptreact"]
+}
