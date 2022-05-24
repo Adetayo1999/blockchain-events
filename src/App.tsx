@@ -123,6 +123,7 @@ function App() {
               },
               ...prev,
             ]);
+            if (address === to) getDetails();
           }
         );
 
@@ -131,7 +132,7 @@ function App() {
         };
       })();
     }
-  }, [walletConnected]);
+  }, [walletConnected, getDetails, address]);
 
   useEffect(() => {
     // listening for account changes
